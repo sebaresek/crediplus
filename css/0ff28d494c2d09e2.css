@@ -475,6 +475,11 @@ body {
 /*
  * Clases de utilidad de Tailwind (Tailwind CSS v3.4.17)
  */
+
+.boxx {
+    box-shadow: rgba(97, 74, 217, 0.4) 0px 8px 25px, #3858adbd 0px 4px 15px;
+}
+
 .container {
     width: 100%;
     margin-right: auto;
