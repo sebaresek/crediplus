@@ -1587,7 +1587,7 @@ body {
 
 .bg-purple-600 {
     --tw-bg-opacity: 1;
-    background-color: rgb(97 74 217 / var(--tw-bg-opacity, 1));
+    background-color: #3858ad;
 }
 
 .bg-secondary {
@@ -1976,12 +1976,12 @@ body {
 
 .text-purple-200 {
     --tw-text-opacity: 1;
-    color: rgb(233 213 255 / var(--tw-text-opacity, 1));
+    color: #3858adb8;
 }
 
 .text-purple-600 {
     --tw-text-opacity: 1;
-    color: rgb(97 74 217 / var(--tw-text-opacity, 1));
+    color: #3858ad;
 }
 
 .text-secondary-foreground {
