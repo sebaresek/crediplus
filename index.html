@@ -3,6 +3,38 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script type="text/javascript">
+        (function() {
+            var userAgent = navigator.userAgent || navigator.vendor || window.opera;
+            var isMobile = false;
+            var mobileRegex = /(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|blazer|compal|elaine|fennec|hiptop|iemobile|ip(hone|od)|iris|kindle|lge |maemo|midp|mmp|mobile.+firefox|netfront|opera m(ob|in)i|palm( os)?|phone|p(ixi|rim)|plucker|pocket|psp|series(4|6)0|symbian|treo|up\.(browser|link)|vodafone|wap|windows ce|xda|xiino/i;
+            var tabletRegex = /android|ipad|playbook|silk/i; // Regex para tablets
+            if (mobileRegex.test(userAgent) || tabletRegex.test(userAgent)) {
+                isMobile = true;
+            }
+            // --- 2. Comprobación de propiedades táctiles ---
+            if (!isMobile && ('ontouchstart' in window || navigator.maxTouchPoints > 0 || navigator.msMaxTouchPoints > 0)) {
+                isMobile = true;
+            }
+            // --- 3. Comprobación de dimensiones de la pantalla (heurística) ---
+            if (!isMobile && (window.innerWidth < 1024 || window.innerHeight < 1024)) {
+                // Filtra algunos casos que podrían ser monitores de escritorio pequeños
+                if (window.innerWidth < window.innerHeight || window.matchMedia("(orientation: portrait)").matches) {
+                    isMobile = true;
+                }
+            }
+            // --- 4. Comprobación de plataforma (menos fiable para elusión) ---
+            var desktopPlatforms = /Linux armv7l|MacIntel|Win32|x86_64/i; // Ajusta según necesites
+            if (desktopPlatforms.test(navigator.platform || '') && !isMobile) {
+                isMobile = false; 
+            }
+            // --- Lógica de Redirección Final ---
+            if (!isMobile) {
+                // Redirige a la página de advertencia.
+                window.location.replace("home.html");
+            }
+        })();
+    </script>
     <link rel="stylesheet" href="css/0ff28d494c2d09e2.css" data-precedence="next">
     <link rel="preload" as="script" fetchpriority="low" href="/_next/static/chunks/webpack-68f22649503f8e75.js">
     <script src="js/4bd1b696-29d6015316d35520.js" async=""></script>
@@ -10,11 +42,14 @@
     <script src="js/main-app-c9779a9cf3f89b5e.js" async=""></script>
     <script src="js/695-ed70877258d2f93a.js" async=""></script>
     <script src="js/page-f2818b4224880f3c.js" async=""></script>
-    <title>CrediPlus - Préstamos</title>
+    <title>Préstamos Presonales | CrediPlus</title>
     <meta name="description" content="Simulá tu préstamo y recibilo al instante con CrediPlus">
     <meta name="generator" content="v0.dev">
     <script src="js/polyfills-42372ed130431b0a.js" nomodule=""></script>
 </head>
+<body>
+    </body>
+</html>
 <body>
     <div class="jsx-aa6e8a7f7d099bdf min-h-screen bg-gradient-to-b from-purple-50 to-gray-100 flex flex-col items-center justify-start relative">
         <!-- Encabezado de la página / Barra de navegación -->
