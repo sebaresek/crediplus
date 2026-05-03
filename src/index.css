@@ -10,6 +10,14 @@
   --color-blue-500: #1f60a7;
   --color-blue-900: #5176a6;
 }
+/* Mejora el rendimiento y la estética del slider */
+input[type="range"]::-webkit-slider-thumb {
+  transition: transform 0.1s ease-in-out, box-shadow 0.1s ease-in-out;
+}
+input[type="range"]:active::-webkit-slider-thumb {
+  transform: scale(1.2); 
+  cursor: grabbing;
+}
 
 @layer base {
   body {

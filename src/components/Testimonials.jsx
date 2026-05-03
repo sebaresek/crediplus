@@ -42,7 +42,7 @@ export default function Testimonials() {
   };
 
   return (
-    <section className="relative py-24 bg-[#F2F7FA] overflow-hidden">
+    <section className="relative py-5 lg:py-24 bg-[#F2F7FA] overflow-hidden">
       {/* Elementos decorativos movidos abajo */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <div className="text-center mb-16 md:mb-24 relative px-8 mt-10 md:mt-0">
@@ -72,7 +72,7 @@ export default function Testimonials() {
 
         <div className="relative flex items-center justify-center md:gap-6 max-w-6xl mx-auto">
           {/* Mobile Buttons */}
-          <div className="absolute top-1/2 -translate-y-1/2 left-0 right-0 flex justify-between md:hidden pointer-events-none z-20 px-1">
+          <div className="absolute top-1/2 -translate-y-1/2 -left-2 -right-2 flex justify-between md:hidden pointer-events-none z-20 px-1">
             <button onClick={prevSlide} className="p-3 bg-white/90 backdrop-blur-sm rounded-full text-blue-900 hover:bg-white shadow-[0_4px_15px_rgba(0,0,0,0.05)] pointer-events-auto transition-all active:scale-95">
               <ChevronLeft className="w-5 h-5" />
             </button>

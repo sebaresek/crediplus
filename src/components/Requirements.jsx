@@ -10,7 +10,7 @@ const steps = [
 
 export default function Requirements() {
   return (
-    <section id="requisitos" className="py-24 bg-slate-50">
+    <section id="requisitos" className="py-15 lg:py-24 bg-slate-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="bg-white rounded-4xl md:rounded-[3rem] p-6 md:p-20 shadow-xl shadow-slate-200 border border-slate-100 flex flex-col md:grid md:grid-cols-2 gap-12 items-center">
           

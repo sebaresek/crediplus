@@ -107,9 +107,9 @@ export default function Navbar() {
                 </button>
               </motion.div>
               <div className="pt-8 flex justify-center gap-6">
-                <div className="flex items-center gap-2 px-3 py-1.5 rounded-lg bg-blue-50/50 border border-blue-100/50">
-                  <div className="w-1 h-1 bg-blue-500 rounded-full animate-pulse"></div>
-                  <span className="text-[9px] font-bold text-blue-600/60 uppercase tracking-widest">BCRA Registrado</span>
+                <div className="flex items-center gap-2 px-3 py-1.5 rounded-lg bg-green-50/50 border border-green-100/50">
+                  <div className="w-1 h-1 bg-green-500 rounded-full animate-pulse"></div>
+                  <span className="text-[9px] font-bold text-green-600/60 uppercase tracking-widest">BCRA Registrado</span>
                 </div>
                 <div className="flex items-center gap-2 px-3 py-1.5 rounded-lg bg-blue-50/50 border border-blue-100/50">
                   <div className="w-1 h-1 bg-blue-500 rounded-full animate-pulse"></div>

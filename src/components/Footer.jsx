@@ -6,11 +6,11 @@ export default function Footer() {
   const currentYear = new Date().getFullYear();
 
   return (
-    <footer className="relative bg-slate-900 text-slate-300 py-24 overflow-hidden">
+    <footer className="relative bg-slate-900 text-slate-300 py-15 lg:py-24 overflow-hidden">
       <div className="absolute top-0 left-1/2 -translate-x-1/2 w-full h-px from-transparent via-blue-500/50 to-transparent"></div>
       
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-16 mb-20">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-16 mb-15 lg:mb-20">
           
           <div className="space-y-8">
             <div className="flex items-center gap-2">
@@ -77,11 +77,12 @@ export default function Footer() {
               <li><Link to="/costos-y-tasas" className="hover:text-white transition-colors inline-block">Costos y tasas</Link></li>
             </ul>
           </div>
-
         </div>
 
-        <div className="pt-12 border-t border-slate-900/50">
-          <div className="flex flex-col lg:flex-row gap-10 lg:items-start justify-between mb-10">
+        <hr className="border-t border-white/10 my-12 block lg:hidden" />
+
+        <div className="pt-0 lg:pt-12 border-t border-slate-900/50">
+          <div className="flex flex-col lg:flex-row gap-10 lg:items-start justify-between  mb-0 lg:mb-10">
             <div className="max-w-2xl space-y-4">
               <p className="text-[10px] leading-relaxed text-slate-600">
                 © {currentYear} Crediplus Todos los derechos reservados. Préstamos personales con garantía prendaria (empeño). 

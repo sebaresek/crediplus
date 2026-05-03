@@ -4,7 +4,7 @@ import { ArrowRight, ShieldCheck, Zap } from 'lucide-react';
 
 export default function Hero() {
   return (
-    <section id="inicio" className="pt-24 md:pt-32 pb-20 overflow-hidden">
+    <section id="inicio" className="pt-20 lg:pt-24 md:pt-32 pb-20 overflow-hidden">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 bg-white">
         <div className="text-center">
           <motion.div

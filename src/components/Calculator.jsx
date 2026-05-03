@@ -66,7 +66,7 @@ export default function Calculator() {
   };
 
   return (
-    <section id="simulador" className="py-24 bg-slate-50">
+    <section id="simulador" className="py-12 lg:py-24 bg-slate-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid lg:grid-cols-2 gap-16 items-center">
           
@@ -101,7 +101,7 @@ export default function Calculator() {
                 step="5000"
                 value={amount}
                 onChange={(e) => setAmount(Number(e.target.value))}
-                className="w-full h-2 bg-slate-200 rounded-lg appearance-none cursor-pointer accent-blue-600"
+                className="w-full h-2 bg-slate-200 rounded-lg appearance-none cursor-pointer accent-blue-600 touch-none select-none"
               />
               <div className="flex justify-between text-xs text-slate-400 font-medium">
                 <span>$10.000</span>
