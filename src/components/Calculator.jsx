@@ -3,7 +3,7 @@ import { motion } from 'motion/react';
 import { Info, HelpCircle, ShieldCheck } from 'lucide-react';
 
 export default function Calculator() {
-  const [amount, setAmount] = useState(50000);
+  const [amount, setAmount] = useState(200000);
   const [term, setTerm] = useState("3 meses");
   const [monthlyInstallment, setMonthlyInstallment] = useState(0);
   const [totalToPay, setTotalToPay] = useState(0);
@@ -57,6 +57,8 @@ export default function Calculator() {
   };
 
   const isDays = term.includes("días");
+  
+  const percentage = ((amount - 50000) / (1000000 - 50000)) * 100;
 
   const handleWhatsAppRedirect = () => {
     const mensaje = `Me interesa solicitar un préstamo de ${formatCurrency(amount)} para pagar en ${term}.`;
@@ -77,11 +79,6 @@ export default function Calculator() {
                 <h2 className="text-2xl lg:text-4xl font-bold text-blue-900 z-1 pb-1">
                   Simulá tu préstamo
                 </h2>
-                {/* <img 
-                  alt="Préstamo rápido" 
-                  src="https://cdn.prod.website-files.com/63091bbd808ef433808b70cd/67fae7be7de0cd9c38fd389f_DolarOficial.avif" 
-                  className="w-16 h-16 object-contain -ml-4 "  
-                /> */}
               </div>
               <p className="text-lg text-slate-600 z-20">Elegí el monto y el plazo que mejor se adapte a vos.</p>
             </div>
@@ -96,15 +93,18 @@ export default function Calculator() {
               </div>
               <input
                 type="range"
-                min="10000"
+                min="50000"
                 max="1000000"
                 step="5000"
                 value={amount}
                 onChange={(e) => setAmount(Number(e.target.value))}
                 className="w-full h-2 bg-slate-200 rounded-lg appearance-none cursor-pointer accent-blue-600 touch-none select-none"
+                  style={{
+                    background: `linear-gradient(to right, #124d91 0%, #4993e7 ${percentage}%, #e2e8f0 ${percentage}%, #e2e8f0 100%)`
+                  }}
               />
               <div className="flex justify-between text-xs text-slate-400 font-medium">
-                <span>$10.000</span>
+                <span>$50.000</span>
                 <span>$1.000.000</span>
               </div>
             </div>
