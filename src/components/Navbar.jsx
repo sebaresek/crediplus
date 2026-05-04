@@ -21,11 +21,11 @@ export default function Navbar() {
             <div 
               className="h-9 md:h-11 w-36 md:w-44 bg-grey-27 transition-colors" 
               style={{
-                WebkitMaskImage: `url('https://www.crediplus.store/static/media/crediplus.2f9a859fefe6df1b5481.png')`,
+                WebkitMaskImage: `url('https://credipluss-qhxnzb76x-sebareseks-projects.vercel.app/static/media/crediplus.2f9a859fefe6df1b5481.png')`,
                 WebkitMaskSize: 'contain',
                 WebkitMaskRepeat: 'no-repeat',
                 WebkitMaskPosition: 'left center',
-                maskImage: `url('https://www.crediplus.store/static/media/crediplus.2f9a859fefe6df1b5481.png')`,
+                maskImage: `url('https://credipluss-qhxnzb76x-sebareseks-projects.vercel.app/static/media/crediplus.2f9a859fefe6df1b5481.png')`,
                 maskSize: 'contain',
                 maskRepeat: 'no-repeat',
                 maskPosition: 'left center',
