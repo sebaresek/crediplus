@@ -16,8 +16,8 @@ export default function Requirements() {
           
           <div className="px-2 md:px-0">
             <h2 className="text-2xl md:text-4xl font-extrabold text-slate-900 mb-4 lg:mb-6 tracking-tight relative ">
-              <span className="text-grey-27">Requisitos mínimos para</span><br />
-              <span className="text-grey-27">tu libertad financiera</span>
+              <span className="text-gray-27">Requisitos mínimos para</span><br />
+              <span className="text-gray-27">tu libertad financiera</span>
             </h2>
             <p className="text-base md:text-lg text-slate-600 mb-8 md:mb-10 text-balance">
               Obtené dinero en el acto dejando un objeto de valor como respaldo. Sin recibo de sueldo ni trámites largos.

@@ -30,7 +30,7 @@ export default function Features() {
     <section className="py-15 lg:py-24 bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
-          <h2 className="text-3xl md:text-5xl font-extrabold text-grey-27 mb-4 tracking-tight">¿Por qué elegir 
+          <h2 className="text-3xl md:text-5xl font-extrabold text-gray-27 mb-4 tracking-tight">¿Por qué elegir 
             Crediplus?</h2>
           <p className="text-lg text-slate-600 max-w-2xl mx-auto">Diseñamos procesos pensados para personas reales, sin burocracia ni vueltas.</p>
         </div>

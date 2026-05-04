@@ -8,7 +8,7 @@
   --color-blue-700: #1f60a7;
   --color-blue-500: #1f60a7;
   --color-blue-900: #5176a6;
-  --color-grey-27: #272727;
+  --color-gray-27: #272727;
 }
 
 input[type="range"]::-webkit-slider-thumb {

@@ -19,13 +19,17 @@ export default function Navbar() {
         <div className="flex justify-between items-center h-20">
           <Link to="/" className="flex items-center gap-2 group cursor-pointer">
             <div 
-              className="h-9 md:h-11 w-36 md:w-44 transition-colors" 
-              style={{
-                backgroundImage: `url('/logo.png')`, // La ruta desde public es solo /
-                backgroundSize: 'contain',
-                backgroundRepeat: 'no-repeat',
-                backgroundPosition: 'left center',
-              }} 
+              className="h-9 md:h-11 w-36 md:w-44 bg-gray-27 opacity-90 hover:opacity-100 transition-opacity" 
+                style={{
+                  WebkitMaskImage: `url('/logo.png')`,
+                  WebkitMaskSize: 'contain',
+                  WebkitMaskRepeat: 'no-repeat',
+                  WebkitMaskPosition: 'left center',
+                  maskImage: `url('/logo.png')`,
+                  maskSize: 'contain',
+                  maskRepeat: 'no-repeat',
+                  maskPosition: 'left center',
+                }}
             />
           </Link>
           

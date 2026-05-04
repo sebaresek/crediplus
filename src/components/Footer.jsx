@@ -17,11 +17,11 @@ export default function Footer() {
               <div 
                 className="h-9 md:h-11 w-36 md:w-44 bg-blue-100 opacity-90 hover:opacity-100 transition-opacity" 
                 style={{
-                  WebkitMaskImage: `url('../public/logo.png')`,
+                  WebkitMaskImage: `url('/logo.png')`,
                   WebkitMaskSize: 'contain',
                   WebkitMaskRepeat: 'no-repeat',
                   WebkitMaskPosition: 'left center',
-                  maskImage: `url('../public/logo.png')`,
+                  maskImage: `url('/logo.png')`,
                   maskSize: 'contain',
                   maskRepeat: 'no-repeat',
                   maskPosition: 'left center',
