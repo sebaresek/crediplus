@@ -3,7 +3,7 @@ import { motion } from 'motion/react';
 
 const ButtonSupport = () => {
   const handleSupportClick = () => {
-    window.open("https://wa.link/gnv3mc", "_blank", "noopener,noreferrer");
+    window.open("https://wa.me/5493765074537?text=Hola,%20me%20gustaría%20solicitar%20un%20crédito.", "_blank", "noopener,noreferrer");
   };
 
   return (

@@ -49,7 +49,7 @@ export default function Footer() {
                 <div className="w-8 h-8 flex items-center justify-center rounded-lg bg-blue-500/10 text-blue-500 shrink-0">
                   <Phone className="w-4 h-4" />
                 </div>
-                <a href="https://wa.me/5493765074537" className="hover:text-white transition-colors">WhatsApp Soporte</a>
+                <a href="https://wa.me/5493765074537?text=Hola,%20me%20gustaría%20solicitar%20un%20crédito." target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">WhatsApp Soporte</a>
               </li>
               <li className="flex items-center gap-4 group">
                 <div className="w-8 h-8 flex items-center justify-center rounded-lg bg-blue-500/10 text-blue-500 shrink-0">

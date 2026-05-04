@@ -37,7 +37,7 @@ export default function Requirements() {
                <h3 className="text-2xl md:text-3xl font-bold mb-4">Todo listo?</h3>
                <p className="text-blue-100 mb-8 text-sm md:text-base">El proceso toma menos de 5 minutos. Aceptamos smartphones, notebooks, consolas y herramientas.</p>
                <button 
-                  onClick={() => window.open('https://wa.me/5493765074537', '_blank')}
+                  onClick={() => window.open('https://wa.me/5493765074537?text=Hola,%20me%20gustaría%20solicitar%20un%20crédito.', '_blank')}
                   className="w-full bg-white text-blue-600 px-8 py-4 rounded-xl font-bold hover:bg-blue-50 transition-colors shadow-lg shadow-blue-900/10 cursor-pointer"
                >
                   Consultar por WhatsApp

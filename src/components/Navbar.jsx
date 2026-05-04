@@ -45,7 +45,7 @@ export default function Navbar() {
               </a>
             ))}
             <motion.button
-              onClick={() => window.open('https://wa.me/5493765074537', '_blank')}
+              onClick={() => window.open('https://wa.me/5493765074537?text=Hola,%20me%20gustaría%20solicitar%20un%20crédito.', '_blank')}
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
               className="bg-blue-600 text-white px-6 py-2.5 rounded-xl text-sm font-bold hover:bg-blue-700 transition-all shadow-md shadow-blue-200 uppercase cursor-pointer"
