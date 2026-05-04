@@ -20,7 +20,7 @@ export default function Hero() {
               El crédito que necesitás, <br />
               <span className="text-blue-900 font-black">sin letra chica.</span>
             </h1>
-            <p className="max-w-2xl mx-auto text-xl text-slate-600 mb-10 leading-relaxed italic font-serif">
+            <p className="max-w-2xl mx-auto text-xl text-slate-600 mb-7 lg:mb-10 leading-relaxed italic font-serif">
               Préstamos personales 100% online con las mejores tasas del mercado. 
               Simple, rápido y transparente.
             </p>
@@ -32,11 +32,12 @@ export default function Hero() {
             transition={{ delay: 0.2, duration: 0.5 }}
             className="flex flex-col sm:flex-row items-center justify-center gap-4"
           >
-            <a href="#simulador" className="w-full sm:w-auto bg-blue-600 text-white px-8 py-4 rounded-xl text-lg font-bold hover:bg-blue-700 transition-all flex items-center justify-center gap-2 shadow-lg shadow-blue-200">
+            <a href="#simulador" 
+              className="w-auto px-10 py-3 sm:px-8 sm:py-4 bg-blue-600 text-white rounded-lg sm:rounded-xl text-sm sm:text-lg font-bold hover:bg-blue-700 transition-all flex items-center justify-center gap-2 shadow-lg shadow-blue-900/20 mx-auto sm:mx-0" >
               Ver Simulador
-              <ArrowRight className="w-5 h-5" />
+              <ArrowRight className="w-4 h-4 sm:w-5 sm:h-5" />
             </a>
-            <div className="flex items-center gap-2 text-slate-500 font-medium">
+            <div className="flex items-center gap-1.5 lg:gap-2 text-slate-500 font-medium text-xs sm:text-[16px]">
               <ShieldCheck className="w-5 h-5 text-green-500" />
               <span>Entidad regulada BCRA</span>
             </div>

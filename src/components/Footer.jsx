@@ -17,11 +17,11 @@ export default function Footer() {
               <div 
                 className="h-9 md:h-11 w-36 md:w-44 bg-blue-100 opacity-90 hover:opacity-100 transition-opacity" 
                 style={{
-                  WebkitMaskImage: `url('https://www.crediplus.store/static/media/crediplus.2f9a859fefe6df1b5481.png')`,
+                  WebkitMaskImage: `url('../public/logo.png')`,
                   WebkitMaskSize: 'contain',
                   WebkitMaskRepeat: 'no-repeat',
                   WebkitMaskPosition: 'left center',
-                  maskImage: `url('https://www.crediplus.store/static/media/crediplus.2f9a859fefe6df1b5481.png')`,
+                  maskImage: `url('../public/logo.png')`,
                   maskSize: 'contain',
                   maskRepeat: 'no-repeat',
                   maskPosition: 'left center',

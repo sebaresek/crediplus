@@ -19,16 +19,12 @@ export default function Navbar() {
         <div className="flex justify-between items-center h-20">
           <Link to="/" className="flex items-center gap-2 group cursor-pointer">
             <div 
-              className="h-9 md:h-11 w-36 md:w-44 bg-grey-27 transition-colors" 
+              className="h-9 md:h-11 w-36 md:w-44 transition-colors" 
               style={{
-                WebkitMaskImage: `url('https://credipluss-qhxnzb76x-sebareseks-projects.vercel.app/static/media/crediplus.2f9a859fefe6df1b5481.png')`,
-                WebkitMaskSize: 'contain',
-                WebkitMaskRepeat: 'no-repeat',
-                WebkitMaskPosition: 'left center',
-                maskImage: `url('https://credipluss-qhxnzb76x-sebareseks-projects.vercel.app/static/media/crediplus.2f9a859fefe6df1b5481.png')`,
-                maskSize: 'contain',
-                maskRepeat: 'no-repeat',
-                maskPosition: 'left center',
+                backgroundImage: `url('/logo.png')`, // La ruta desde public es solo /
+                backgroundSize: 'contain',
+                backgroundRepeat: 'no-repeat',
+                backgroundPosition: 'left center',
               }} 
             />
           </Link>
