@@ -4,11 +4,11 @@
 
 @theme {
   --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
-  /* --color-blue-600: #3885db; */
   --color-blue-600: #276fbf;
   --color-blue-700: #1f60a7;
   --color-blue-500: #1f60a7;
   --color-blue-900: #5176a6;
+  --color-grey-27: #272727;
 }
 
 input[type="range"]::-webkit-slider-thumb {

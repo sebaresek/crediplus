@@ -15,7 +15,10 @@ export default function Requirements() {
         <div className="bg-white rounded-4xl md:rounded-[3rem] p-6 md:p-20 shadow-xl shadow-slate-200 border border-slate-100 flex flex-col md:grid md:grid-cols-2 gap-12 items-center">
           
           <div className="px-2 md:px-0">
-            <h2 className="text-2xl md:text-4xl font-extrabold text-slate-900 mb-6 tracking-tight">Requisitos mínimos para tu libertad financiera</h2>
+            <h2 className="text-2xl md:text-4xl font-extrabold text-slate-900 mb-4 lg:mb-6 tracking-tight relative ">
+              <span className="text-grey-27">Requisitos mínimos para</span><br />
+              <span className="text-grey-27">tu libertad financiera</span>
+            </h2>
             <p className="text-base md:text-lg text-slate-600 mb-8 md:mb-10 text-balance">
               Obtené dinero en el acto dejando un objeto de valor como respaldo. Sin recibo de sueldo ni trámites largos.
             </p>
